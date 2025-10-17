@@ -1,0 +1,102 @@
+/* === FONDO GENERAL === */
+body {
+  margin: 0;
+  font-family: 'Crimson Pro', serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+  background: url('https://upload.wikimedia.org/wikipedia/commons/d/d8/Kontiki-raft.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: brightness(0.9);
+}
+
+/* === ENCABEZADO === */
+.header {
+  background-color: rgba(0, 80, 120, 0.5);
+  text-align: center;
+  padding: 20px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #e0f7fa;
+}
+
+.header nav {
+  margin-top: 10px;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #a8e6ff;
+}
+
+/* === SECCIONES === */
+.hero, .content, .gallery {
+  background-color: rgba(0, 0, 50, 0.4);
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 900px;
+}
+
+.hero-text h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #aeeafc;
+}
+
+/* === IMÁGENES === */
+.image-center {
+  text-align: center;
+}
+
+.image-center img,
+.image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.4);
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #dfe;
+}
+
+/* === GALERÍA === */
+.gallery .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* === PIE DE PÁGINA === */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 50, 100, 0.5);
+  font-size: 1rem;
+  color: #cfefff;
+}
